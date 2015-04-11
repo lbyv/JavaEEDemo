@@ -12,6 +12,10 @@
 </head>
 <body>
 
+<%!
+//    out.println("Hello, world!");
+%>
+
 <%
     int times = Integer.parseInt(request.getParameter("times"));
     for (int k = 0; k < times; k++) {// fori
